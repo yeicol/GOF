@@ -1,5 +1,5 @@
-
 package Creacionales.Builder;
+
 /**
  *
  * @author Brian Yeicol Restrepo Tangarife
@@ -7,7 +7,7 @@ package Creacionales.Builder;
  */
 public class Restaurante {
 
-    public void construir(PizzaBuilder pizzaBuilder){
+    public void construir(PizzaBuilder pizzaBuilder) {
         pizzaBuilder.agregarMasa();
         pizzaBuilder.agregarSalsa();
         pizzaBuilder.agregarRelleno();
