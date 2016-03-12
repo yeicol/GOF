@@ -13,7 +13,6 @@ public class Pizza {
 
     private String tipoPizza;
     private final Map<String, String> componentes = new HashMap<>();
-    static PrintWriter out = new PrintWriter(System.out);
 
     public Pizza(String tipoPizza) {
         this.tipoPizza = tipoPizza;
@@ -32,10 +31,9 @@ public class Pizza {
     }
 
     public void mostrar() {
-        out.print("Preparada pizza " + this.getTipoPizza());
-        out.print(" de masa " + this.getComponente("Masa"));
-        out.print(", salsa " + this.getComponente("Salsa"));
-        out.println("y con relleno de " + this.getComponente("Relleno"));
-        out.close();
+        System.out.print("Preparada pizza " + this.getTipoPizza());
+        System.out.print(" de masa " + this.getComponente("Masa"));
+        System.out.print(", salsa " + this.getComponente("Salsa"));
+        System.out.println(" y con relleno de " + this.getComponente("Relleno"));
     }
 }
