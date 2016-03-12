@@ -9,7 +9,7 @@ package Creacionales.AbstractFactory;
  * Abstract Factory
  * @author Yeicol
  */
-public interface ITelevisorFactory {
+public interface TelevisorFactory {
 
     public LCD ConstruirLCD();
 

@@ -13,11 +13,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ITelevisorFactory azul = new AzulFactory();
+        TelevisorFactory azul = new AzulFactory();
         Empresa empresa = new Empresa(azul);
         empresa.formatoLCD();
 
-        ITelevisorFactory amarillo = new AmarilloFactory();
+        TelevisorFactory amarillo = new AmarilloFactory();
         empresa = new Empresa(amarillo);
         empresa.formatoPlasma();
 
