@@ -15,27 +15,6 @@ public class Bicicleta extends PrototipoBicicleta implements Cloneable {
         this.diametroRuedas = diametroRuedas;
     }
 
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public int getDiametroRuedas() {
-        return diametroRuedas;
-    }
-
-    public void setDiametroRuedas(int diametroRuedas) {
-        this.diametroRuedas = diametroRuedas;
-    }
-    
-    public void mostrar(){
-        System.out.print("Bicicleta " + this.color + " con ruedas de ");
-        System.out.println(this.diametroRuedas + " pulgadas de diametro");
-    }
-
     @Override
     public PrototipoBicicleta Clone() throws Exception {
         System.out.print("Clonando la bicicleta de color " + this.color);
