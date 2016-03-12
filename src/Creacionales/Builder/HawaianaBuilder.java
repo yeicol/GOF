@@ -1,25 +1,31 @@
-
 package Creacionales.Builder;
+
 /**
  *
  * @author Brian Yeicol Restrepo Tangarife
  * @author Madelin Rangel Grisales
  */
-public class HawaianaBuilder implements PizzaBuilder{
+public class HawaianaBuilder implements PizzaBuilder {
+
+    private Pizza pizza;
+
+    public HawaianaBuilder() {
+        Pizza pizza = new Pizza("Hawaiana");
+    }
 
     @Override
     public void agregarMasa() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        pizza.setComponente("Masa", "Suave");
     }
 
     @Override
     public void agregarSalsa() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        pizza.setComponente("Salsa", "Dulce");
     }
 
     @Override
     public void agregarRelleno() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        pizza.setComponente("Relleno", "Queso, piña y jamón");
     }
 
 }
