@@ -12,19 +12,14 @@ package Creacionales.AbstractFactory;
 public class Main {
 
     public static void main(String[] args) {
-//    GUIBuilder builder = new GUIBuilder();
-//    AbstractWidgetFactory widgetFactory = null;
-//    //check what platform we're on
-//    if(Platform.currentPlatform()=="MACOSX"){
-//      widgetFactory  = new MacOSXWidgetFactory();
-//    } else {
-//      widgetFactory  = new MsWindowsWidgetFactory();
-//    }
-//    builder.buildWindow(widgetFactory);
 
-        Cliente cliente = new Cliente();
-        ITelevisorFactory lcdAzul = new AzulFactory();
-        cliente.construirTelevisor(lcdAzul);
+        ITelevisorFactory azul = new AzulFactory();
+        Empresa empresa = new Empresa(azul);
+        empresa.formatoLCD();
+
+        ITelevisorFactory amarillo = new AmarilloFactory();
+        empresa = new Empresa(amarillo);
+        empresa.formatoPlasma();
 
     }
 }
