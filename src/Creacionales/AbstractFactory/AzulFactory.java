@@ -16,12 +16,12 @@ public class AzulFactory implements ITelevisorFactory{
     }
     @Override
     public LCD ConstruirLCD() {
-        return new LCD();
+        return new LCDAzul();
     }
 
     @Override
     public Plasma ConstruirPlasma() {
-        return new Plasma();
+        return new PlasmaAzul();
     }
 
 

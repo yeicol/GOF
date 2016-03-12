@@ -17,11 +17,11 @@ public class AmarilloFactory implements ITelevisorFactory{
     
     @Override
     public LCD ConstruirLCD() {
-        return new LCD();
+        return new LCDAmarillo();
     }
     @Override
     public Plasma ConstruirPlasma() {
-        return new Plasma();
+        return new PlasmaAmarillo();
     }
 
 }
