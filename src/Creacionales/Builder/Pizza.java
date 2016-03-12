@@ -23,19 +23,19 @@ public class Pizza {
         return tipoPizza;
     }
 
-    public String getParte(String clave) {
+    public String getComponente(String clave) {
         return this.componentes.get(clave);
     }
 
-    public void setParte(String clave, String valor) {
+    public void setComponente(String clave, String valor) {
         this.componentes.put(clave, valor);
     }
 
     public void mostrar() {
         out.println("Tipo de Pizza: " + this.getTipoPizza());
-        out.println("Tipo de Masa: " + this.getParte("Masa"));
-        out.println("Tipo de Salsa: " + this.getParte("Salsa"));
-        out.println("Relleno de: " + this.getParte("Relleno"));
+        out.println("Tipo de Masa: " + this.getComponente("Masa"));
+        out.println("Tipo de Salsa: " + this.getComponente("Salsa"));
+        out.println("Relleno de: " + this.getComponente("Relleno"));
         out.close();
     }
 }
