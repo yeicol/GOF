@@ -10,7 +10,7 @@ public class HawaianaBuilder implements PizzaBuilder {
     private Pizza pizza;
 
     public HawaianaBuilder() {
-        Pizza pizza = new Pizza("Hawaiana");
+        this.pizza = new Pizza("Hawaiana");
     }
 
     @Override
@@ -26,6 +26,11 @@ public class HawaianaBuilder implements PizzaBuilder {
     @Override
     public void agregarRelleno() {
         pizza.setComponente("Relleno", "Queso, piña y jamón");
+    }
+
+    @Override
+    public Pizza getPizza() {
+        return this.pizza;
     }
 
 }

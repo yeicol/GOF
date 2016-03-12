@@ -12,4 +12,6 @@ public interface PizzaBuilder {
     public void agregarSalsa();
 
     public void agregarRelleno();
+
+    public Pizza getPizza();
 }
