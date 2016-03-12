@@ -6,7 +6,7 @@
 package Creacionales.AbstractFactory;
 
 /**
- *
+ * Abstract Product B
  * @author Yeicol
  */
 public interface ITelevisorAmarillo {

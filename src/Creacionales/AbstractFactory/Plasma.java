@@ -6,7 +6,7 @@
 package Creacionales.AbstractFactory;
 
 /**
- *
+ * Producto B2
  * @author Yeicol
  */
 public class Plasma implements ITelevisorAmarillo{

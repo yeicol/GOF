@@ -6,7 +6,7 @@
 package Creacionales.AbstractFactory;
 
 /**
- *
+ * Producto A1
  * @author Yeicol
  */
 class LCD implements ITelevisorAzul{

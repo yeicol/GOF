@@ -6,7 +6,7 @@
 package Creacionales.AbstractFactory;
 
 /**
- *
+ * Cliente
  * @author Yeicol
  */
 public class Cliente {

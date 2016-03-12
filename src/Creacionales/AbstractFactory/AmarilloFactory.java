@@ -6,7 +6,7 @@
 package Creacionales.AbstractFactory;
 
 /**
- *
+ * Concrete Factory 2
  * @author Yeicol
  */
 public class AmarilloFactory implements ITelevisorFactory{
