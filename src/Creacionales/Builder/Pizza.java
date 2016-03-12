@@ -32,10 +32,10 @@ public class Pizza {
     }
 
     public void mostrar() {
-        out.println("Tipo de Pizza: " + this.getTipoPizza());
-        out.println("Tipo de Masa: " + this.getComponente("Masa"));
-        out.println("Tipo de Salsa: " + this.getComponente("Salsa"));
-        out.println("Relleno de: " + this.getComponente("Relleno"));
+        out.print("Preparada pizza " + this.getTipoPizza());
+        out.print(" de masa " + this.getComponente("Masa"));
+        out.print(", salsa " + this.getComponente("Salsa"));
+        out.println("y con relleno de " + this.getComponente("Relleno"));
         out.close();
     }
 }
