@@ -3,17 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Caso3;
+package Creacionales.AbstractFactory;
 
 /**
  *
  * @author Yeicol
  */
-public class Equilatero extends Triangulo {
+public class Plasma implements ITelevisorAmarillo{
 
     @Override
-    public void crearTriangulo() {
-        System.out.println("Creado Triangulo Equilatero");
+    public void producir() {
+        System.out.println();
     }
-
 }

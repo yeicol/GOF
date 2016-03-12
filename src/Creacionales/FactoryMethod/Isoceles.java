@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Caso2;
+package Creacionales.FactoryMethod;
 
 /**
  *
  * @author Yeicol
  */
-public interface ITelevisorFactory {
+public class Isoceles extends Triangulo {
 
-    public LCD ConstruirLCD();
-
-    public Plasma ConstruirPlasma();
+    @Override
+    public void crearTriangulo() {
+        System.out.println("Creado Triangulo Isoceles");
+    }
 
 }

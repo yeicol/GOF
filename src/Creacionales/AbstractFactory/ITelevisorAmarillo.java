@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Caso2;
+package Creacionales.AbstractFactory;
 
 /**
  *
  * @author Yeicol
  */
-public interface ITelevisorAzul {
+public interface ITelevisorAmarillo {
+
     public void producir();
+
 }

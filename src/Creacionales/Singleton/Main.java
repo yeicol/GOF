@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Caso1;
+package Creacionales.Singleton;
 
 import java.io.PrintWriter;
 
