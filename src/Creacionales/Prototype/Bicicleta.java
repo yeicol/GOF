@@ -17,8 +17,8 @@ public class Bicicleta extends PrototipoBicicleta implements Cloneable {
 
     @Override
     public PrototipoBicicleta Clone() throws Exception {
-        System.out.print("Clonando la bicicleta de color " + this.color);
-        System.out.println(" y diametro de ruedas de " + this.diametroRuedas + " pulgadas");
+        System.out.print("Clonando la bicicleta " + this.color + " y diametro ");
+        System.out.println("de ruedas de " + this.diametroRuedas + " pulgadas");
         return (PrototipoBicicleta) this.clone();
     }
 
