@@ -3,17 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Caso3;
+package Creacionales.FactoryMethod;
 
 /**
  *
  * @author Yeicol
  */
-public class Escaleno extends Triangulo {
-
-    @Override
-    public void crearTriangulo() {
-        System.out.println("Creado Triangulo Escaleno");
+abstract class Triangulo {
+    public  Triangulo() {
+        crearTriangulo();
     }
-
+    public abstract void crearTriangulo();
 }

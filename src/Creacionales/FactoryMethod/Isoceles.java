@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Caso3;
+package Creacionales.FactoryMethod;
 
 /**
  *
  * @author Yeicol
  */
-abstract class Triangulo {
-    public  Triangulo() {
-        crearTriangulo();
+public class Isoceles extends Triangulo {
+
+    @Override
+    public void crearTriangulo() {
+        System.out.println("Creado Triangulo Isoceles");
     }
-    public abstract void crearTriangulo();
+
 }
