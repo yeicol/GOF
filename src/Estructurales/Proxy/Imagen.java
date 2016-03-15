@@ -7,13 +7,16 @@ package Estructurales.Proxy;
  */
 public class Imagen implements Grafico {
 
+    private String nombreImagen;
+
     public Imagen(String nombreImagen) {
-        System.out.println(nombreImagen + " Cargada");
+        this.nombreImagen = nombreImagen;
+        System.out.println("Imagen \"" + nombreImagen + "\" Cargada");
     }
 
     @Override
     public void dibujar() {
-        System.out.println("Dibujando Imagen");
+        System.out.println("Dibujando Imagen \"" + nombreImagen + "\"");
     }
 
 }
