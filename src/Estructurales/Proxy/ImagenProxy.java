@@ -8,15 +8,17 @@ package Estructurales.Proxy;
 public class ImagenProxy implements Grafico {
 
     private Imagen imagen;
+    private String nombreImagen;
 
-    public ImagenProxy() {
+    public ImagenProxy(String nombreImagen) {
+        this.nombreImagen = nombreImagen;
         this.imagen = null;
     }
 
     @Override
     public void dibujar() {
-        if (this.imagen == null){
-            this.imagen = new Imagen();
+        if (this.imagen == null) {
+            this.imagen = new Imagen(nombreImagen);
         }
         this.imagen.dibujar();
     }

@@ -6,9 +6,9 @@ package Estructurales.Proxy;
  * @author Madelin Rangel Grisales
  */
 public class Imagen implements Grafico {
-                        
-    public Imagen() {
-        System.out.println("Imagen Cargada");
+
+    public Imagen(String nombreImagen) {
+        System.out.println(nombreImagen + " Cargada");
     }
 
     @Override
