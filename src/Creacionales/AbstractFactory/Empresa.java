@@ -15,7 +15,7 @@ public class Empresa {
     private LCD lcd;
     private Plasma plasma;
 
-    public Empresa(ITelevisorFactory fabrica) {
+    public Empresa(TelevisorFactory fabrica) {
         this.lcd = fabrica.ConstruirLCD();
         this.plasma = fabrica.ConstruirPlasma();
     }

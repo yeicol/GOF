@@ -9,7 +9,7 @@ package Creacionales.AbstractFactory;
  * Concrete Factory 1
  * @author Yeicol
  */
-public class AzulFactory implements ITelevisorFactory{
+public class AzulFactory implements TelevisorFactory{
 
     public AzulFactory() {
 
