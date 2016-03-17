@@ -8,7 +8,7 @@ package Estructurales.Decorator;
 public class ComboFamiliar extends Combo {
 
 	public ComboFamiliar() {
-		descripcion = "4 Hamburguesas, 4 porcion de papas fritas, gaseosas 1.5 litros";
+		descripcion = "4 Hamburguesas, gaseosa 1.5 litros";
 	}
 
 	@Override

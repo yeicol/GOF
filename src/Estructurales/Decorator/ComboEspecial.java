@@ -8,7 +8,7 @@ package Estructurales.Decorator;
 public class ComboEspecial extends Combo {
 
 	public ComboEspecial() {
-		descripcion = "1 hamburguesa, 1 porcion de papas fritas, malteada";
+		descripcion = "Hamburguesa, ensalada, malteada";
 	}
 
 	

@@ -13,7 +13,7 @@ package Estructurales.Decorator;
 public class ComboBasico extends Combo {
 
 	public ComboBasico() {
-		descripcion = "1 Hamburguesa, gaseosa personal";
+		descripcion = "Hamburguesa, gaseosa personal";
 	}
 
 	@Override
