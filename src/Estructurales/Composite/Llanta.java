@@ -34,12 +34,19 @@ public class Llanta implements PiezaTaller{
         System.out.println("Nombre: "+getNombre());
         System.out.println("Precio: "+getPrecio());
         System.out.println("--------------------------------------------------");
-
+        
+        double contador = getPrecio();
+        
         Iterator<PiezaTaller> piezaIterator = piezaTaller.iterator();
-        while(piezaIterator.hasNext())
-        {
-            PiezaTaller  pieza = piezaIterator.next();
-            pieza.mostrar();
+        if(piezaIterator.hasNext()){
+            while(piezaIterator.hasNext())
+            {
+                PiezaTaller  pieza = piezaIterator.next();
+                pieza.mostrar();
+                contador = contador + pieza.getPrecio();
+            }
+            System.out.println("Total precio Rueda: "+contador);
+            System.out.println("--------------------------------------------------");
         }
     }
     
