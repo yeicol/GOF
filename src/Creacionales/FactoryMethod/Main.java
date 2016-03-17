@@ -1,18 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Creacionales.FactoryMethod;
 
 /**
  *
- * @author Yeicol
+ * @author Brian Yeicol Restrepo Tangarife
+ * @author Madelin Rangel Grisales
  */
 public class Main {
     public static void main(String[] args) {
-        Triangulo escaleno = new Escaleno();
-        Triangulo isoceles = new Isoceles();
-        Triangulo equilatero = new Equilatero();
+		
+		TrianguloFabrica trianguloFabrica = new TrianguloConcreto();
+		
+		Triangulo triangulo = trianguloFabrica.crearTringulo(50, 50, 50);
+		triangulo = trianguloFabrica.crearTringulo(60, 50, 50);
+		triangulo = trianguloFabrica.crearTringulo(60, 50, 70);
     }
 }
