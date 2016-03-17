@@ -25,7 +25,6 @@ public class Tornillo implements PiezaTaller{
     }   
     
     public void mostrar() {
-        System.out.println("--------------------------------------------------");
         System.out.println("Nombre: "+getNombre());
         System.out.println("Precio: "+getPrecio());
         System.out.println("--------------------------------------------------");        
